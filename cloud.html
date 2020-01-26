@@ -1,0 +1,97 @@
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Cloudiness</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <style>
+        .nav-item a:hover {
+            color: white !important;
+            cursor: pointer;
+            background-color: rgb(216, 40, 40) !important;
+        }
+  </style>
+
+</head>
+
+<body>
+
+<div class = 'navbar navbar-expand fixed-top bg-dark nav-pills'>
+<ul class="nav" >
+    <li class="nav-item">
+        <a class="nav-link" href="https://ricardocjnyc.github.io/Web-Design-Challenge/landing.html">Overview</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+        <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://ricardocjnyc.github.io/Web-Design-Challenge/temp.html">Temperature</a>
+                <a class="dropdown-item" href="https://ricardocjnyc.github.io/Web-Design-Challenge/wind.html">Wind Speed</a>
+                <a class="dropdown-item" href="https://ricardocjnyc.github.io/Web-Design-Challenge/cloud.html">Cloudiness</a>
+                <a class="dropdown-item" href="https://ricardocjnyc.github.io/Web-Design-Challenge/humid.html">Humidity</a>
+        </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="https://ricardocjnyc.github.io/Web-Design-Challenge/comparisons.html">Comparisons</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="https://ricardocjnyc.github.io/Web-Design-Challenge/data.html">Data</a>
+    </li>
+</ul>
+</div>
+<br><br><br>
+<div class = 'container-fluid'>
+    <div class = 'row'>
+       <div class = 'col-xs-12 col-md-5'>
+            <div class = 'row'>
+                <img src=""City_Latitude_vs_Cloudiness.png" alt="Cloudiness" style="width:150%;">
+            </div>
+            <div class = 'row'>
+                <div class = 'col-4'>
+                    <a href="https://https://ricardocjnyc.github.io/Web-Design-Challenge/wind.html">
+                    <img src="City_Latitude_vs_Wind_Speed.png" style="max-width:100%;" alt="Wind Speed"></a>
+                </div>
+                <div class = 'col-4'>
+                    <a href="https://ricardocjnyc.github.io/Web-Design-Challenge/humid.html">
+                    <img src="City_Latitude_vs_Humidity.png" style="max-width:100%;" alt="Humidity"></a>
+                </div>
+                <div class = 'col-4'>
+                    <a href="https://ricardocjnyc.github.io/Web-Design-Challenge/temp.html">
+                    <img src="Max_Temp_vs_Latitude.png" style="max-width:100%;" alt="Temperature"></a>
+                </div>
+            </div>
+        </div>        
+        <div class = 'col-xs-12 col-md-7 text-left'>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h6 class="display-4">Cloudiness vs. Latitude</h6>
+                    <p class="lead">
+                        <br>
+                        This plot shows the percentage of cloud cover at each location.
+                        <br><br>
+                        Cloudiness does not depends on latitude, it seen it is all data well spread out 
+                        There are almost same number of cities with cloudiness of 0% to 100%
+                        <br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class = 'row'></div><hr>
+    <div class = 'col-12 text-right'>
+        <p class= "text-muted"><small>Ricardo Calderon 2019</small></p>
+    </div>
+</div>
+
+</div>
+</body>
+
+</html>
