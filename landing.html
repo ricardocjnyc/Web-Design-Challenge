@@ -53,23 +53,26 @@
         <div class = 'row'>
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container">
-                        <h1 class="display-4">Weather conditions based on latitude</h1>
+                        <h1 class="display-4">Weather conditions by latitude</h1>
                         <p class="lead">A Python project to visualize the weather of 500+ cities across the world of varying 
-                            distance from the equator.</p>
+                            distance from the equator. Temperature, wind-speed, humidity, and cloudiness was analysed</p>
                     </div>
                 </div>
         </div>
         <div class = 'row'>
             <ul>
-                <li>Data was collected using the <a target="_blank" href="https://openweathermap.org/api">OpenWeather Weather API</a> on 9/22/19.
+                <li>Data was collected using the <a target="_blank" href="https://openweathermap.org/api">OpenWeather Weather API</a> on 11/29/19.
                 </li><br>
-                <li>Random coordinate pairs were generated using <a target="_blank" href="https://numpy.org/">Numpy</a>.
+                <li>Random cities were generated from latitude -90 to 90 and longitued -180 to 180 using <a target="_blank" href="https://numpy.org/">Numpy</a>.
                 </li><br>
                 <li><a target="_blank" href = "https://pypi.org/project/citipy/">Citipy</a> was used to find the closest city to each coordinate pair.
                 </li><br>
                 <li>Each unique city was added to a list of cities to run through the Weather API.
                 </li><br>
                 <li>Visualizations were generated using <a target="_blank" href="https://matplotlib.org/">MatPlotLib.</a>
+                </li><br>
+                <li>Data was converted into dataframe using pandas <a target="_blank" href="https://pandas.pydata.org/">Pandas libray.</a>
+                </li><br>
                 </li>
             </ul>
         </div>   
